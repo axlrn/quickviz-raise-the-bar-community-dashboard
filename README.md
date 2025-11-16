@@ -23,8 +23,11 @@ pbip/ → Entire PBIP project (open directly in Power BI Desktop)
 │ └─ Deployment/ → Optional workspace and connection configs
 
 dataset/ → CSV dataset used for the visual
+
 images/ → Screenshots from the QuickViz submission
+
 LICENSE → MIT License (free to reuse with attribution)
+
 .gitignore → Optimized for PBIP + Power BI projects
 
 
