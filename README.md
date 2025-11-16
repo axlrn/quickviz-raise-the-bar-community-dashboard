@@ -103,8 +103,11 @@ Together, we keep raising the bar. 💚
 
 ## 🔗 Useful Links
 
+- **Fabric Community:** https://community.fabric.microsoft.com
+- **Fabric Data Days 2025 | November 4 - December 31:** https://community.fabric.microsoft.com/t5/custom/page/page-id/campaign_form?campaignID=Q0FNUEFJR05fMTc1OTkzMzk2MTk4NA==
+- **QuickViz Challenges | Fabric Data Days:** https://community.fabric.microsoft.com/t5/Power-BI-Community-Blog/QuickViz-Challenges-Fabric-Data-Days/ba-p/4863852  
 - **QuickViz Submission:** https://community.fabric.microsoft.com/t5/QuickViz-Gallery/QuickViz-Raise-the-Bar-Raising-Our-Own-Bar-What-inspires-the/td-p/4873790  
-- **Fabric Community:** https://community.fabric.microsoft.com  
+- **Week 1 - Winners:** https://community.fabric.microsoft.com/t5/QuickViz-Gallery/bd-p/pbi_quickvizgallery?featured=yes&filter=raise%20the%20bar  
 
 ---
 
