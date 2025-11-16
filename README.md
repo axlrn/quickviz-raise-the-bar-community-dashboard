@@ -103,7 +103,7 @@ Together, we keep raising the bar. 💚
 
 ## 🔗 Useful Links
 
-- **QuickViz Submission:** (add your link here)  
+- **QuickViz Submission:** https://community.fabric.microsoft.com/t5/QuickViz-Gallery/QuickViz-Raise-the-Bar-Raising-Our-Own-Bar-What-inspires-the/td-p/4873790  
 - **Fabric Community:** https://community.fabric.microsoft.com  
 
 ---
