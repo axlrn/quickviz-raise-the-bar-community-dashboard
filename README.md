@@ -14,21 +14,27 @@ Using the PBIP format allows anyone to:
 
 ## 📁 Project Structure
 
-pbip/ → Entire PBIP project (open directly in Power BI Desktop)
-
-│ ├─ Report/ → Visual structure, layout, interactions
-
-│ ├─ Model/ → Data model (.bim), fields, relationships
-
-│ └─ Deployment/ → Optional workspace and connection configs
-
-dataset/ → CSV dataset used for the visual
-
-images/ → Screenshots from the QuickViz submission
-
-LICENSE → MIT License (free to reuse with attribution)
-
-.gitignore → Optimized for PBIP + Power BI projects
+PBIP/                       → Full PBIP project (open directly in Power BI Desktop)
+│
+├─ Report/                 → Report definition: visuals, layout, interactions and static resources
+│
+├─ SemanticModel/          → Data model: model.bim, fields, relationships and diagram layout
+│
+├─ dataset/                → CSV dataset used in the dashboard (community-interests.csv)
+│
+├─ theme/                  → Custom JSON theme applied to the report
+│
+├─ storytelling_dataviz/   → Storytelling and dataviz specification used to design the winning visual
+│
+└─ deployment/             → Optional workspace, connection and environment configuration files
+│
+docs/                      → Multilanguage project documentation (PT-BR, EN-US, ES)
+│
+images/                    → Screenshots and assets from the QuickViz submission
+│
+LICENSE                    → MIT License (free to reuse with attribution)
+│
+.gitignore                 → Optimized ignore rules for PBIP + Power BI projects
 
 
 To open this project:
