@@ -15,9 +15,13 @@ Using the PBIP format allows anyone to:
 ## 📁 Project Structure
 
 pbip/ → Entire PBIP project (open directly in Power BI Desktop)
+
 │ ├─ Report/ → Visual structure, layout, interactions
+
 │ ├─ Model/ → Data model (.bim), fields, relationships
+
 │ └─ Deployment/ → Optional workspace and connection configs
+
 dataset/ → CSV dataset used for the visual
 images/ → Screenshots from the QuickViz submission
 LICENSE → MIT License (free to reuse with attribution)
