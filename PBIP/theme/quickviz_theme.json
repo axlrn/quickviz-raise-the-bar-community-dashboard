@@ -1,0 +1,82 @@
+{
+  "name": "QuickViz — Raising Our Own Bar",
+  "dataColors": [
+    "#2BB3E7",
+    "#3ECF8E",
+    "#1E88E5",
+    "#7CC8FF",
+    "#74D8B1",
+    "#90EE90"
+  ],
+  "background": "#F3F6FA",
+  "foreground": "#3A3A3A",
+  "tableAccent": "#2BB3E7",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "titleText": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 13,
+            "fontColor": {
+              "solid": {
+                "color": "#3A3A3A"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#3A3A3A"
+              }
+            },
+            "textSize": 12
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#3A3A3A"
+              }
+            },
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": "#3A3A3A"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#3A3A3A"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI"
+    },
+    "title": {
+      "fontFace": "Segoe UI"
+    }
+  }
+}

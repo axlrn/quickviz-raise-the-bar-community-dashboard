@@ -1,0 +1,233 @@
+table MeasuresTable
+	lineageTag: c422f6f3-16cf-45f5-b5fb-a4e2a9df13d6
+
+	measure Lang2 =
+			
+			// ------------- Idioma (derivado de USERCULTURE) -------------
+			VAR cc = LOWER ( LEFT ( USERCULTURE(), 2 ) )
+			RETURN
+			    SWITCH ( cc, "pt", "pt", "es", "es", "en" )
+		lineageTag: bb954b95-8702-4bf6-aab9-b5b2a3e7d636
+
+	measure Lang_Flag =
+			
+			SWITCH ( [Lang2], "pt", "🇧🇷", "es", "🇪🇸", "🌍" )
+		lineageTag: 91c4f31a-d6f1-4a64-be46-c9a979f98de0
+
+	measure Title_Dynamic = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", "Elevando a Nossa Própria Barra",
+			        "es", "Elevando Nuestra Propia Barra",
+			        "Raising Our Own Bar"
+			    )
+			
+			```
+		lineageTag: de7d0dc7-5277-4222-8532-066ff9b46c76
+
+	measure Subtitle_Dynamic = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", SELECTEDVALUE ( Community[Subtitle_PT], "O que inspira a comunidade Fabric?" ),
+			        "es", SELECTEDVALUE ( Community[Subtitle_ES], "¿Qué inspira a la comunidad Fabric?" ),
+			        SELECTEDVALUE ( Community[Subtitle_EN], "What inspires the Fabric community?" )
+			    )
+			
+			```
+		lineageTag: fcad615d-222a-4905-992f-376cee479a73
+
+	measure 'Popularidade %' =
+			
+			SUM ( Community[Popularidade] )
+		formatString: 0
+		lineageTag: 90ff1b6d-3c53-403b-a30e-85b81bb85db9
+
+	measure 'Meta Comunidade %' = 30
+		formatString: 0
+		lineageTag: cca612d8-4c3f-4a74-a22e-d3f11177ac79
+
+	measure Tema_Dynamic = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", SELECTEDVALUE ( Community[Tema_PT] ),
+			        "es", SELECTEDVALUE ( Community[Tema_ES] ),
+			        SELECTEDVALUE ( Community[Tema_EN] )
+			    )
+			
+			```
+		lineageTag: e7414ae6-55c0-464d-a8f4-a795bac5d89c
+
+	measure Insight_Dynamic = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", SELECTEDVALUE ( Community[Insight_PT] ),
+			        "es", SELECTEDVALUE ( Community[Insight_ES] ),
+			        SELECTEDVALUE ( Community[Insight_EN] )
+			    )
+			
+			```
+		lineageTag: ebfc8a9d-440b-40bc-ab5d-8dbea757636b
+
+	measure Footer_Dynamic =
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", "Dados simulados para fins de demonstração (QuickViz).",
+			        "es", "Datos simulados con fines de demostración (QuickViz).",
+			        "Sample data for demonstration (QuickViz)."
+			    )
+		lineageTag: 3ec9e2ff-9b40-453a-93ab-42eb84959a3a
+
+	measure tooltip_subtitle = "Community Insight " & [Lang_Flag]
+		lineageTag: 52bdcd2d-b7d6-4060-a0a8-ec559dcdb198
+
+	measure Title_Subtitle_Dynamic =
+			CONCATENATE([Title_Dynamic],
+			                        CONCATENATE(": ", [Subtitle_Dynamic]))
+		lineageTag: 05ff10ce-7485-4722-a859-87674dc3d32e
+
+	measure Headline_Dynamic = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", "Sustentabilidade e diversidade lideram — a comunidade Fabric segue evoluindo.",
+			        "es", "La sostenibilidad y la diversidad marcan el camino: la comunidad Fabric continúa evolucionando.",
+			        "Sustainability and diversity lead the way — the Fabric community continues to evolve."
+			    )
+			
+			
+			```
+		lineageTag: cbf96a51-6824-4e75-ba59-dcce1d5753a9
+
+	measure toolbar_alttext = ```
+			
+			VAR L = [Lang2]
+			RETURN
+			    SWITCH (
+			        L,
+			        "pt", "Ranking dos temas que mais inspiram a comunidade Fabric: Sustentabilidade e diversidade lideram — a comunidade Fabric segue evoluindo. Gráfico multilíngue com título dinâmico e tooltip que muda conforme o idioma do usuário.",
+			        "es", "Clasificación de los temas que más inspiran a la comunidad Fabric: la sostenibilidad y la diversidad marcan la pauta; la comunidad Fabric sigue evolucionando. Gráfico multilingüe con título dinámico y descripción emergente que se adapta al idioma del usuario.",
+			        "Ranking of the themes that most inspire the Fabric community: Sustainability and diversity lead the way — the Fabric community continues to evolve. Multilingual chart with dynamic title and tooltip that changes according to the user's language."
+			    )
+			
+			```
+		lineageTag: 8f926b4f-82f6-44c2-b625-9dcc940e8b5f
+
+	measure Lang_Active =
+			
+			VAR sel = SELECTEDVALUE ( LangMap[LangKey], "auto" )
+			VAR cc  = LOWER ( LEFT ( USERCULTURE(), 2 ) )
+			VAR autoLang = SWITCH ( cc, "pt", "pt", "es", "es", "en" )
+			RETURN IF ( sel = "auto", autoLang, sel )
+		lineageTag: 6fdd05ed-faf9-4ac3-a6b6-b64fe54b4830
+
+	measure Footer_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", "Dados simulados para fins de demonstração (QuickViz).",
+			        "es", "Datos simulados con fines de demostración (QuickViz).",
+			        "Sample data for demonstration (QuickViz)."
+			    )
+			```
+		lineageTag: 9918beb8-dc46-4bb8-ae16-519d17332245
+
+	measure Headline_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", "Sustentabilidade e diversidade lideram — a comunidade Fabric segue evoluindo.",
+			        "es", "La sostenibilidad y la diversidad marcan el camino: la comunidad Fabric continúa evolucionando.",
+			        "Sustainability and diversity lead the way — the Fabric community continues to evolve."
+			    )
+			```
+		lineageTag: 39bf0d00-1782-4e3f-9596-dd6334102763
+
+	measure Subtitle_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", SELECTEDVALUE ( Community[Subtitle_PT], "O que inspira a comunidade Fabric?" ),
+			        "es", SELECTEDVALUE ( Community[Subtitle_ES], "¿Qué inspira a la comunidad Fabric?" ),
+			        SELECTEDVALUE ( Community[Subtitle_EN], "What inspires the Fabric community?" )
+			    )
+			
+			```
+		lineageTag: 3e2585b5-7f03-4a56-b683-c70c36445115
+
+	measure Title_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", "Elevando a Nossa Própria Barra",
+			        "es", "Elevando Nuestra Propia Barra",
+			        "Raising Our Own Bar"
+			    )
+			```
+		lineageTag: 01debbc5-f52f-4342-8508-2be603995df0
+
+	measure Title_Subtitle_Dynamic_DBG =
+			CONCATENATE([Title_Dynamic_DBG],
+			                        CONCATENATE(": ", [Subtitle_Dynamic_DBG]))
+		lineageTag: 9a8aaaea-085d-495b-af6d-0acf0174416e
+
+	measure Insight_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", SELECTEDVALUE ( Community[Insight_PT] ),
+			        "es", SELECTEDVALUE ( Community[Insight_ES] ),
+			        SELECTEDVALUE ( Community[Insight_EN] )
+			    )
+			```
+		lineageTag: 5a7399a6-4e6e-4d3a-867c-389f099c9ba7
+
+	measure Tema_Dynamic_DBG = ```
+			
+			    SWITCH (
+			        [Lang_Active],
+			        "pt", SELECTEDVALUE ( Community[Tema_PT] ),
+			        "es", SELECTEDVALUE ( Community[Tema_ES] ),
+			        SELECTEDVALUE ( Community[Tema_EN] )
+			    )
+			
+			```
+		lineageTag: 425a8d44-64e1-45af-9679-2afb0b7513f6
+
+	measure tooltip_subtitle_DBG = "Community Insight " & [Lang_Active]
+		lineageTag: 0fb8b1da-0e90-4f02-83c7-d4267eb4f06d
+
+	column Column
+		isHidden
+		formatString: 0
+		lineageTag: 0fbd3c8c-97a9-402f-837a-65b1beda16ce
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MeasuresTable = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = f5adf89e83c44a838562e4c3bac680be
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

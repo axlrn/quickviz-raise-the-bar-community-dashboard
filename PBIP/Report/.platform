@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "20251112_QuickViz_Raise the bar_RenanOliveiraAndrade"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d5f9499d-2b1d-4f32-a100-7a69847c72ed"
+  }
+}

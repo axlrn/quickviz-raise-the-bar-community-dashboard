@@ -1,0 +1,37 @@
+table LangMap
+	lineageTag: feabf999-4b99-466c-bf51-0b04e723f3ae
+
+	column LangKey
+		lineageTag: a08b349a-9422-4b0d-bd4d-ecf610180008
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [LangKey]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Label
+		lineageTag: 4b02521f-3e98-492f-a305-dcbde2e031a2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Label]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition LangMap = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE (
+				    "LangKey", STRING, "Label", STRING,
+				    {
+				        { "auto", "Auto (USERCULTURE)" },
+				        { "pt",   "Português (pt-BR)" },
+				        { "es",   "Español (es-ES)" },
+				        { "en",   "English (en-US)" }
+				    }
+				)
+				
+				```
+
+	annotation PBI_Id = 2682ef50060d4684bb68631353ed8c7d
+

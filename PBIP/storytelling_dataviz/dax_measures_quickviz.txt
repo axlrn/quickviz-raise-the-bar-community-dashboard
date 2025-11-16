@@ -1,0 +1,67 @@
+// ------------- Idioma (derivado de USERCULTURE) -------------
+Lang2 :=
+VAR cc = LOWER ( LEFT ( USERCULTURE(), 2 ) )
+RETURN
+    SWITCH ( cc, "pt", "pt", "es", "es", "en" )
+
+Lang_Flag :=
+SWITCH ( [Lang2], "pt", "🇧🇷", "es", "🇪🇸", "🌍" )
+
+// ------------- Medidas de texto dinâmico -------------
+Title_Dynamic :=
+VAR L = [Lang2]
+RETURN
+    SWITCH (
+        L,
+        "pt", "Elevando a Nossa Própria Barra " & [Lang_Flag],
+        "es", "Elevando Nuestra Propia Barra " & [Lang_Flag],
+        "Raising Our Own Bar " & [Lang_Flag]
+    )
+
+Subtitle_Dynamic :=
+VAR L = [Lang2]
+RETURN
+    SWITCH (
+        L,
+        "pt", SELECTEDVALUE ( Community[Subtitle_PT], "O que inspira a comunidade Fabric?" ),
+        "es", SELECTEDVALUE ( Community[Subtitle_ES], "¿Qué inspira a la comunidad Fabric?" ),
+        SELECTEDVALUE ( Community[Subtitle_EN], "What inspires the Fabric community?" )
+    )
+
+// ------------- Métricas principais -------------
+Popularidade % :=
+SUM ( Community[Popularidade] )
+
+Meta Comunidade % := 30
+
+// ------------- Texto do Tema por idioma (para rótulo/tooltip) -------------
+Tema_Dynamic :=
+VAR L = [Lang2]
+RETURN
+    SWITCH (
+        L,
+        "pt", SELECTEDVALUE ( Community[Tema_PT] ),
+        "es", SELECTEDVALUE ( Community[Tema_ES] ),
+        SELECTEDVALUE ( Community[Tema_EN] )
+    )
+
+Insight_Dynamic :=
+VAR L = [Lang2]
+RETURN
+    SWITCH (
+        L,
+        "pt", SELECTEDVALUE ( Community[Insight_PT] ),
+        "es", SELECTEDVALUE ( Community[Insight_ES] ),
+        SELECTEDVALUE ( Community[Insight_EN] )
+    )
+
+// ------------- Rodapé opcional -------------
+Footer_Dynamic :=
+VAR L = [Lang2]
+RETURN
+    SWITCH (
+        L,
+        "pt", "Dados simulados para fins de demonstração (QuickViz).",
+        "es", "Datos simulados con fines de demostración (QuickViz).",
+        "Sample data for demonstration (QuickViz)."
+    )

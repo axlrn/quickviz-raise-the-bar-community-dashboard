@@ -1,0 +1,2050 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "community": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "community": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "public": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "municipal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "open": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "society": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "population": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "community.tema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Tema"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tema": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "community.popularidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Popularidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "popularidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "community.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "community.insight_EN": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Insight_EN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insight EN": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Insight_EN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "EN": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "community.insight_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Insight_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insight ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Insight_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ES": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "community.insight_PT": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Insight_PT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insight PT": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Insight_PT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PT": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "community.tema_EN": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Tema_EN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tema EN": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tema_EN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Theme": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "community.tema_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Tema_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tema ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tema_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "community.tema_PT": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Tema_PT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tema PT": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tema_PT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "community.subtitle_EN": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Subtitle_EN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subtitle EN": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Subtitle_EN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "EN": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "community.subtitle_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Subtitle_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subtitle ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Subtitle_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ES": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "community.subtitle_PT": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Community",
+			          "ConceptualProperty": "Subtitle_PT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subtitle PT": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Subtitle_PT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PT": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measures table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "measure table": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MeasuresTable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "measure tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "measure bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure spreadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.lang_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Lang2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lang 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Lang2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.lang_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Lang_Flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lang flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Lang_Flag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "lang ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lang pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lang pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lang emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lang streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.title_dynamic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Title_Dynamic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title dynamic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Title_Dynamic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dynamic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "designation dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "name dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "award dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "call dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "heading dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label dynamic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "go-ahead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "self-motivated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.subtitle_dynamic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Subtitle_Dynamic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subtitle dynamic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Subtitle_Dynamic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dynamic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "go-ahead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "self-motivated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.popularidade_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Popularidade %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "popularidade %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "popularidade percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "popularidade pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Popularity %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.meta_comunidade_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Meta Comunidade %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta comunidade %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "meta comunidade percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "meta comunidade pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.tema_dynamic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Tema_Dynamic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tema dynamic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tema_Dynamic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.insight_dynamic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Insight_Dynamic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insight dynamic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Insight_Dynamic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dynamic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "go-ahead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "self-motivated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.footer_dynamic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "Footer_Dynamic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "footer dynamic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Footer_Dynamic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dynamic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "go-ahead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "self-motivated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measures_table.tooltip_subtitle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasuresTable",
+			          "ConceptualProperty": "tooltip_subtitle"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tooltip subtitle": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tooltip_subtitle": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "subtitle": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tooltip slogan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip legend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip header": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip footer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip surtitle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tooltip supertitle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "slogan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "legend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "measures_table_has_tooltip_subtitle": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.tooltip_subtitle": {
+			          "Target": {
+			            "Entity": "measures_table.tooltip_subtitle"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.tooltip_subtitle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_tooltip_subtitle"
+			        }
+			      ]
+			    },
+			    "measures_table_has_footer_dynamic": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.footer_dynamic": {
+			          "Target": {
+			            "Entity": "measures_table.footer_dynamic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.footer_dynamic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_footer_dynamic"
+			        }
+			      ]
+			    },
+			    "community_has_measures_table_insight_dynamic": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "measures_table.insight_dynamic": {
+			          "Target": {
+			            "Entity": "measures_table.insight_dynamic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "measures_table.insight_dynamic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_insight_dynamic"
+			        }
+			      ]
+			    },
+			    "community_has_measures_table_tema_dynamic": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "measures_table.tema_dynamic": {
+			          "Target": {
+			            "Entity": "measures_table.tema_dynamic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "measures_table.tema_dynamic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_tema_dynamic"
+			        }
+			      ]
+			    },
+			    "measures_table_has_meta_comunidade_": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.meta_comunidade_": {
+			          "Target": {
+			            "Entity": "measures_table.meta_comunidade_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.meta_comunidade_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_meta_comunidade_"
+			        }
+			      ]
+			    },
+			    "community_has_measures_table_popularidade_": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "measures_table.popularidade_": {
+			          "Target": {
+			            "Entity": "measures_table.popularidade_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "measures_table.popularidade_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_popularidade_"
+			        }
+			      ]
+			    },
+			    "community_has_measures_table_subtitle_dynamic": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "measures_table.subtitle_dynamic": {
+			          "Target": {
+			            "Entity": "measures_table.subtitle_dynamic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "measures_table.subtitle_dynamic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_subtitle_dynamic"
+			        }
+			      ]
+			    },
+			    "measures_table_has_title_dynamic": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.title_dynamic": {
+			          "Target": {
+			            "Entity": "measures_table.title_dynamic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.title_dynamic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_title_dynamic"
+			        }
+			      ]
+			    },
+			    "measures_table_has_lang_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.lang_flag": {
+			          "Target": {
+			            "Entity": "measures_table.lang_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.lang_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_lang_flag"
+			        }
+			      ]
+			    },
+			    "measures_table_has_lang_2": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasuresTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measures_table": {
+			          "Target": {
+			            "Entity": "measures_table"
+			          }
+			        },
+			        "measures_table.lang_2": {
+			          "Target": {
+			            "Entity": "measures_table.lang_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measures_table"
+			            },
+			            "Object": {
+			              "Role": "measures_table.lang_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_tables_have_lang_2"
+			        }
+			      ]
+			    },
+			    "community_has_subtitle_PT": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.subtitle_PT": {
+			          "Target": {
+			            "Entity": "community.subtitle_PT"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.subtitle_PT"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_subtitle_PT"
+			        }
+			      ]
+			    },
+			    "community_has_subtitle_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.subtitle_ES": {
+			          "Target": {
+			            "Entity": "community.subtitle_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.subtitle_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_subtitle_ESes"
+			        }
+			      ]
+			    },
+			    "community_has_subtitle_EN": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.subtitle_EN": {
+			          "Target": {
+			            "Entity": "community.subtitle_EN"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.subtitle_EN"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_subtitle_ENs"
+			        }
+			      ]
+			    },
+			    "community_has_tema_PT": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.tema_PT": {
+			          "Target": {
+			            "Entity": "community.tema_PT"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.tema_PT"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_tema_PT"
+			        }
+			      ]
+			    },
+			    "community_has_tema_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.tema_ES": {
+			          "Target": {
+			            "Entity": "community.tema_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.tema_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_tema_ESes"
+			        }
+			      ]
+			    },
+			    "community_has_tema_EN": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.tema_EN": {
+			          "Target": {
+			            "Entity": "community.tema_EN"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.tema_EN"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_tema_ENs"
+			        }
+			      ]
+			    },
+			    "community_has_insight_PT": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.insight_PT": {
+			          "Target": {
+			            "Entity": "community.insight_PT"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.insight_PT"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_insight_PT"
+			        }
+			      ]
+			    },
+			    "community_has_insight_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.insight_ES": {
+			          "Target": {
+			            "Entity": "community.insight_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.insight_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_insight_ESes"
+			        }
+			      ]
+			    },
+			    "community_has_insight_EN": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.insight_EN": {
+			          "Target": {
+			            "Entity": "community.insight_EN"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.insight_EN"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_insight_ENs"
+			        }
+			      ]
+			    },
+			    "community_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.categoria": {
+			          "Target": {
+			            "Entity": "community.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_categorias"
+			        }
+			      ]
+			    },
+			    "community_has_popularidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.popularidade": {
+			          "Target": {
+			            "Entity": "community.popularidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.popularidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_popularidades"
+			        }
+			      ]
+			    },
+			    "community_has_tema": {
+			      "Binding": {
+			        "ConceptualEntity": "Community"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "community": {
+			          "Target": {
+			            "Entity": "community"
+			          }
+			        },
+			        "community.tema": {
+			          "Target": {
+			            "Entity": "community.tema"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "community"
+			            },
+			            "Object": {
+			              "Role": "community.tema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "communities_have_temas"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

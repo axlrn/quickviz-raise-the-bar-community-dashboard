@@ -1,0 +1,112 @@
+table Community
+	lineageTag: 3c73ffb2-96ed-4b8b-a0a9-f5e6588bd4d6
+
+	column Tema
+		dataType: string
+		lineageTag: 092e9da6-d58f-4ca5-9e0b-29f3fff2f6cc
+		summarizeBy: none
+		sourceColumn: Tema
+
+		annotation SummarizationSetBy = Automatic
+
+	column Popularidade
+		dataType: int64
+		formatString: 0
+		lineageTag: d25e4e3c-70bf-4543-b79a-58e4e567bdbe
+		summarizeBy: sum
+		sourceColumn: Popularidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria
+		dataType: string
+		lineageTag: efacc370-2c37-417e-8960-b499d640cca9
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column Insight_EN
+		dataType: string
+		lineageTag: 6bcbcb44-bf5e-4138-8730-509c6a7111e0
+		summarizeBy: none
+		sourceColumn: Insight_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column Insight_ES
+		dataType: string
+		lineageTag: 839cb771-af44-401b-ba2e-9a488298ec3e
+		summarizeBy: none
+		sourceColumn: Insight_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column Insight_PT
+		dataType: string
+		lineageTag: c3fc17ac-d158-438d-8823-da319fe781df
+		summarizeBy: none
+		sourceColumn: Insight_PT
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tema_EN
+		dataType: string
+		lineageTag: 9ff751ca-d6f8-4893-a052-976500ed2918
+		summarizeBy: none
+		sourceColumn: Tema_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tema_ES
+		dataType: string
+		lineageTag: 3c1a1b58-0588-40af-a284-ce3cbbbbc743
+		summarizeBy: none
+		sourceColumn: Tema_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tema_PT
+		dataType: string
+		lineageTag: 690f9b87-40fa-4c2e-b435-8b76b4cb1b5c
+		summarizeBy: none
+		sourceColumn: Tema_PT
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subtitle_EN
+		dataType: string
+		lineageTag: fe11ec76-e83e-461c-9e95-085c933af770
+		summarizeBy: none
+		sourceColumn: Subtitle_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subtitle_ES
+		dataType: string
+		lineageTag: b9b7efa4-5737-4bce-a5a6-6e5d7527b5c3
+		summarizeBy: none
+		sourceColumn: Subtitle_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subtitle_PT
+		dataType: string
+		lineageTag: 0eff19fe-db7c-44cb-a81c-c24ae69aa2ab
+		summarizeBy: none
+		sourceColumn: Subtitle_PT
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Community = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\axlrn\OneDrive\Consultoria\GitHub\QuickViz-Challenges-Fabric-Data-Days-2025\Week 1 - Raise the bar\data\raising_our_own_bar_trilingual.csv"),[Delimiter=",", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Tema", type text}, {"Popularidade", Int64.Type}, {"Categoria", type text}, {"Insight_EN", type text}, {"Insight_ES", type text}, {"Insight_PT", type text}, {"Tema_EN", type text}, {"Tema_ES", type text}, {"Tema_PT", type text}, {"Subtitle_EN", type text}, {"Subtitle_ES", type text}, {"Subtitle_PT", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

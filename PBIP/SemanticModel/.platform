@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "20251112_QuickViz_Raise the bar_RenanOliveiraAndrade"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "489c2ee0-5f9f-4692-bdfe-5d5659b9fa00"
+  }
+}
